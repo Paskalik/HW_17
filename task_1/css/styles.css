@@ -1,0 +1,80 @@
+form {
+    font-family: Verdana, sans-serif;
+    background-color: #ff704d;
+    position: absolute;
+}
+.mem {
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    width: 400px;
+    height: 400px;
+    background-color: #d9d9d9;
+    box-shadow: 0 0 14px rgba(0,0,0,0.25), 0 0 10px rgba(0,0,0,0.22);
+    position: relative;
+}
+.soc {
+    position: relative;
+    width: 400px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+}
+.soc input {
+    width: 190px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: 0 0 14px rgba(0,0,0,0.25), 0 0 10px rgba(0,0,0,0.22);
+    background-image: url(../icons/twitter.png);
+    background-repeat: no-repeat;
+    background-size: 190px 50px;
+}
+.soc input:first-child {
+    margin-right: 14px;
+    background-image: url(../icons/facebook.png);
+    background-repeat: no-repeat;
+    background-size: 190px 50px;
+}
+ul {
+    list-style: none;
+    list-style-type: inline;
+    padding-top: 20px;
+    padding-left: 0;
+}
+li {
+    text-align: center;
+    height: 80px;
+}
+h1 {
+    font-size: 32px;
+    font-weight: 900;
+}
+input {
+    height: 50px;
+    width: 350px;
+    border: none;
+}
+input::placeholder {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #d9d9d9;
+}
+.mem input[type=button] {
+    color: white;
+    background-color: #009933;
+    border-bottom: 5px solid #004d1a;
+    font-size: 20px;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: #ff3300;
+    font-weight: bold;
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
