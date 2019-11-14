@@ -1,0 +1,184 @@
+body {
+    font-family: sans-serif;
+    overflow-y: auto;
+    font-family: sans-serif;
+}
+header {
+	left: 15%;
+	top: 0;
+	position: fixed;
+	width: 1000px;
+	height: 70px;
+	color: white;
+	background-color: #003366;
+	z-index: 1;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	text-decoration: underline;
+}
+.lefttext {
+	font-size: 20px;
+	padding-left: 70px;
+	float: left;
+	margin-top: 25px;
+}
+.righttext {
+	font-size: 12px;
+	padding-right: 70px;
+	float: right;
+	margin-top: 29px;
+}
+main {
+	left: 15%;
+	top: 70px;
+	position: absolute;
+	width: 1000px;
+	min-height: 600px;
+	background-color: #f2f2f2;
+	font-size: 14px;
+}
+form {
+	padding: 0 70px;
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+li {
+	display: inline;
+}
+.topblock input,select {
+	width: 134px;
+	height: 25px;
+	border: 1px solid #d9d9d9;
+	border-radius: 3px;
+}
+select,input::placeholder {
+	font-size: 12px;
+	padding-left: 10px;
+}
+.loc {
+	background-image: url(../icons/location.svg);
+	background-repeat: no-repeat;
+	background-position: 95% 40%;
+	background-size: 15%;
+}
+.cal {
+	background-image: url(../icons/calendar.svg);
+	background-repeat: no-repeat;
+	background-position: 95% 40%;
+	background-size: 15%;
+}
+.topblock select,input[type=submit] {
+	height: 29px; 
+	cursor: pointer;
+}
+input[type=submit] {
+	background-color: #003366;
+	color: white;
+	border: none;
+	border-radius: 3px;
+}
+.topblock li {
+	margin-right: 5px;
+}
+.topblock li:last-child {
+	margin-right: 0;
+}
+.leftblock,.rightblock {
+	background-color: white;
+	float: left;
+	border: 1px solid #d9d9d9;
+	border-radius: 5px;
+}
+.leftblock {
+	width: 208px;
+	margin-right: 10px;
+	text-align: left;
+	padding: 20px;
+}
+.rightblock {
+	width: 598px;
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+h4 {
+	margin: 10px 0 0 0;
+	font-weight: 800;
+}
+h5 {
+	margin: 20px 0 10px 0;
+	color: #003366;
+	font-weight: 800;
+}
+.leftblock ul {
+	margin: 5px 0 0 0;
+	font-size: 14px;
+}
+.leftblock li {
+	display: list-item;
+}
+.price input {
+	height: 25px;
+	width: 70px;
+	border: 1px solid #d9d9d9;
+	border-radius: 3px;
+	display: block;
+	padding-left: 10px;
+}
+.price label {
+	display: inline-block;
+}
+table {
+	margin-top: 20px;
+	font-size: 14px;
+	border-collapse: collapse;
+}
+th,td {
+	width: 99px;
+	height: 60px;
+	border-top: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+}
+th {
+	color: #003366;
+	font-weight: 800;
+	font-size: 12px;
+	background-color: #f2f2f2;
+	height: 40px;
+}
+td span {
+	color: gray;
+	font-size: 12px;
+}
+td p {
+	margin: 2px 0;
+}
+td a {
+	color: #003366;
+	text-decoration: none;
+	font-size: 12px;
+}
+td a:hover {
+	text-decoration: underline;
+}
+td input[type=button] {
+	background-color: #003366;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	width: 60px;
+	height: 25px;
+	display: block;
+	margin: 0 auto;
+	cursor: pointer;
+}
+td:last-child {
+	border-bottom: none;
+	height: 20px;
+}

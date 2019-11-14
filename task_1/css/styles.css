@@ -61,7 +61,7 @@ input::placeholder {
     font-weight: bold;
     color: #d9d9d9;
 }
-.mem input[type=button] {
+.mem input[type=submit] {
     color: white;
     background-color: #009933;
     border-bottom: 5px solid #004d1a;
